@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+
+@font-face {
+  font-family: BAS;
+  src: url(./fonts/BaskervilleMTStd-Regular.otf)
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: NHG;
+  src: url(./fonts/NHaasGroteskTXPro-55Rg.ttf)
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+:root {
+  --clr1: #FCF8E8;
+  --clr2: #94B49F;
+  --clr3: #DF7861;
+  --clr4: #76549A;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-link {
-  color: #61dafb;
+/* body {
+  height: 100vh;
+} */
+
+h1, p {
+  color: var(--clr1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+  font-family: BAS;
+}
+
+p{
+  font-family: NHG;
+}
+
+a{
+  text-decoration: none;
 }

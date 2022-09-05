@@ -1,0 +1,168 @@
+.navbar {
+    background: var(--clr1);
+    position: sticky;
+    font-family: NHG;
+    top: 0;
+    z-index: 999;
+}
+
+.navbarContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.titles {
+    color: var(--clr2);
+    cursor: pointer;
+    padding: .8em;
+}
+
+.titles img {
+    width: 4rem;
+}
+
+.navbarText {
+    color: var(--clr2);
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.navMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+}
+
+.navLinks {
+    font-size: .8em;
+    font-weight: 800;
+    color: var(--clr2);
+    letter-spacing: .8px;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    height: 100%;
+    position: relative;
+}
+
+.navLinks::before {
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+
+.navLinks:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.navLinks::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(235, 236, 225);
+    z-index: -1;
+    transition: transform .3s ease;
+}
+
+
+.fa-bars {
+    color: var(--clr2);
+}
+
+.navLinks-mobile {
+    display: none;
+}
+
+.menuIcon {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    .NavbarItems {
+        position: relative;
+    }
+
+    .navMenu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 69px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        background-color: var(--clr2);
+    }
+
+    .navMenu.active {
+        background: var(--clr1);
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .navLinks {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+        font-size: 1.8rem;
+    }
+
+    .navLinks:hover {
+        background-color: #fff;
+        color: #242424;
+        border-radius: 0;
+    }
+
+
+    .menuIcon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    .fa-times {
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    .navLinks-mobile {
+        display: block;
+        text-align: center;
+        margin: 2rem auto;
+        border-radius: 4px;
+        width: 80%;
+        text-decoration: none;
+        font-size: 1.5rem;
+        background-color: transparent;
+        color: #fff;
+        padding: 14px 20px;
+        border: 1px solid #fff;
+        transition: all 0.3s ease-out;
+    }
+
+    .navLinks-mobile:hover {
+        background: #fff;
+        color: #242424;
+        transition: 250ms;
+    }
+
+}

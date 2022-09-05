@@ -1,0 +1,36 @@
+
+.heroContent{
+    min-height: 100vh;
+    background-color: var(--clr2);
+    padding: 5% 9%;
+    display: flex;
+    
+}
+
+.leftSection{
+    padding-top: 12%;
+    padding-right: 1em;
+}
+
+.leftSection h1{
+    font-size: 3.5em;
+    font-weight: 100;
+    line-height: 1;
+    margin-bottom: 22px;
+}
+
+.leftSection p{
+    font-size: 1.2em;
+    letter-spacing: .8px;
+    line-height: 1.4;
+}
+
+.rightSection{
+    padding-left: 1em;
+}
+
+.imgRight{
+    height: 140%;
+    width: 80%;
+    object-fit:cover;
+}
