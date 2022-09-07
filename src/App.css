@@ -23,9 +23,9 @@
   padding: 0;
 }
 
-/* body {
-  height: 100vh;
-} */
+body {
+  overflow-x: hidden;
+}
 
 h1, p {
   color: var(--clr1);
@@ -33,10 +33,16 @@ h1, p {
 
 h1{
   font-family: BAS;
+  font-size: 3.5em;
+  font-weight: 100;
+  line-height: 1;
 }
 
 p{
   font-family: NHG;
+  font-size: 1.2em;
+  letter-spacing: .8px;
+  line-height: 1.4;
 }
 
 a{

@@ -92,15 +92,19 @@
         position: relative;
     }
 
+    .navbar{
+        min-height: 4em;
+    }
+
     .navMenu {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 100%;
-        height: 100vh;
+        width: 80%;
+        height: 60vh;
         position: absolute;
-        top: 69px;
-        left: -100%;
+        top: 4em;
+        right: -100%;
         opacity: 1;
         transition: all 0.5s ease;
         background-color: var(--clr2);
@@ -108,18 +112,17 @@
 
     .navMenu.active {
         background: var(--clr1);
-        left: 0;
+        right: 0;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
     }
 
     .navLinks {
-        text-align: center;
         padding: 2rem;
         width: 100%;
         display: table;
-        font-size: 1.8rem;
+        font-size: 1.3rem;
     }
 
     .navLinks:hover {
@@ -140,7 +143,7 @@
     }
 
     .fa-times {
-        color: #fff;
+        color: var(--clr2);
         font-size: 2rem;
     }
 

@@ -13,24 +13,25 @@
 }
 
 .leftSection h1{
-    font-size: 3.5em;
-    font-weight: 100;
-    line-height: 1;
     margin-bottom: 22px;
 }
 
-.leftSection p{
-    font-size: 1.2em;
-    letter-spacing: .8px;
-    line-height: 1.4;
-}
 
 .rightSection{
     padding-left: 1em;
+    display: flex;
+    justify-content: center;
 }
 
 .imgRight{
     height: 140%;
     width: 80%;
     object-fit:cover;
+    z-index: 500;
+}
+
+@media screen and (max-width: 960px){
+    .heroContent{
+        flex-direction: column;
+    }
 }

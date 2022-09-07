@@ -1,0 +1,38 @@
+
+.swiper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 5em;
+    left: 30em;
+    max-width: 32em;
+
+}
+
+.slide{
+    margin-top: 15em;
+}
+
+.slideContent{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.userImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 40;
+}
+
+.userPhoto{
+    width: 18em;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--clr3) !important;
+}
