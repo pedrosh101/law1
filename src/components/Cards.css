@@ -1,0 +1,22 @@
+.cardsContainer{
+    background-color: var(--clr3);
+    padding: 4em 12em;
+}
+
+.allCards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card{
+    outline: 1px solid black;
+    background-color: rgb(157, 167, 177);
+    padding: .8em;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover{
+    scale: 1.03;
+}

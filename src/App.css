@@ -13,7 +13,7 @@
 :root {
   --clr1: #FCF8E8;
   --clr2: #94B49F;
-  --clr3: #DF7861;
+  --clr3: rgb(131, 91, 91);
   --clr4: #76549A;
 }
 
@@ -36,6 +36,10 @@ h1{
   font-size: 3.5em;
   font-weight: 100;
   line-height: 1;
+}
+
+h5{
+  font-family: NHG;
 }
 
 p{

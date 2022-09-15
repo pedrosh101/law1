@@ -38,12 +38,12 @@ function Navbar() {
             </li>
             <li>
               <Link to="/" className="navLinks" onClick={closeMobileMenu}>
-                CONTATO
+                SOBRE NÓS
               </Link>
             </li>
             <li>
               <Link to="/" className="navLinks" onClick={closeMobileMenu}>
-                SOBRE NÓS
+                CONTATO
               </Link>
             </li>
           </ul>

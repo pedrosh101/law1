@@ -1,13 +1,7 @@
 
 .swiper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    top: 5em;
-    left: 30em;
     max-width: 32em;
-
+    padding-bottom: 2.4em;
 }
 
 .slide{
@@ -15,7 +9,6 @@
 }
 
 .slideContent{
-    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,13 +19,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 40;
 }
 
 .userPhoto{
     width: 18em;
+    height: 27em;
+    object-fit: cover;
 }
 
 .swiper-pagination-bullet-active {
     background-color: var(--clr3) !important;
 }
+
+.userName{
+    margin: .5em 0 .2em 0;
+    font-size: 1.2em;
+}
+

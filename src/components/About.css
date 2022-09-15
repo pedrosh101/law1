@@ -1,7 +1,9 @@
 .About{
-    min-height: 200vh;
     background-color: var(--clr1);
-
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(12, 1fr);
+    min-height: 62em;
 }
 
 .About h1,.About p{
@@ -13,16 +15,38 @@
     margin-bottom: 15px;
 }
 
-
-
 .aboutContent{
-    position: relative;
+    margin-top: 15em;
+    grid-column: 1/7 ;
 }
 
 .cardA{
-    top: 25em;
-    position: absolute;
     background-color: var(--clr2);
     padding: 4em 8em;
-    max-width: 45vw;
+}
+
+.timeContainer{
+    position: absolute;
+    margin-top: 8em;
+    display: flex;
+}
+
+.aboutBox{
+    margin-top: 30em;
+    margin-right: 2em;
+    grid-column: 8/13;
+    padding: 10px;
+    background-color: var(--clr2);
+    max-height: 24em;
+    
+}
+
+.aboutText{
+    padding-top: 4em;
+    margin-left: 20em;
+    font-size: 1em;
+}
+
+.aboutText p{
+    color: var(--clr1);
 }

@@ -15,7 +15,7 @@
 .titles {
     color: var(--clr2);
     cursor: pointer;
-    padding: .8em;
+    padding: 1.4em;
 }
 
 .titles img {
@@ -39,9 +39,9 @@
 }
 
 .navLinks {
-    font-size: .8em;
-    font-weight: 800;
-    color: var(--clr2);
+    font-size: .75em;
+    font-weight: 100;
+    color: #242424;
     letter-spacing: .8px;
     text-decoration: none;
     padding: 0.5rem 2rem;

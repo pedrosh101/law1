@@ -12,26 +12,26 @@ SwiperCore.use([Pagination, A11y, Autoplay]);
 const data = [
   {
     id: 1,
-    username: "Fandango",
-    testimonial: "this is my story",
+    username: "Dr. Fandango",
+    testimonial: "Advogado - OAB/PS 19.590",
     img: "../img/adv1.jpg",
   },
   {
     id: 2,
-    username: "Tom",
-    testimonial: "this is my party",
+    username: "Dr. Tom",
+    testimonial: "Advogado - OAB/PS 19.470",
     img: "../img/adv2.jpg",
   },
   {
     id: 3,
-    username: "Lili",
-    testimonial: "this is my time",
+    username: "Dra. Lili",
+    testimonial: "Advogado - OAB/PS 19.000",
     img: "../img/adv3.jpg",
   },
   {
     id: 4,
-    username: "Hulk",
-    testimonial: "this is my second job",
+    username: "Dr. Hulk",
+    testimonial: "Advogado - OAB/PS 25.190",
     img: "../img/adv4.jpg",
   },
 ];
@@ -44,8 +44,6 @@ function Slides() {
         slidesPerView={1}
         autoplay={{ delay: 3000 }}
         pagination={{ clickable: true }}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
         className="swiper"
       >
         {data.map((user) => (
@@ -54,8 +52,8 @@ function Slides() {
               <div className="userImg">
                 <img src={user.img} alt={user.username} className="userPhoto" />
               </div>
-              <h5>{user.username}</h5>
-              <h5>"{user.testimonial}"</h5>
+              <h5 className="userName">{user.username}</h5>
+              <h5 className="userText">"{user.testimonial}"</h5>
             </div>
           </SwiperSlide>
         ))}

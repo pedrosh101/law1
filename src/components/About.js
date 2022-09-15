@@ -1,5 +1,5 @@
 import React from "react";
-import Slider from "./Slides";
+import Slide from "./Slide";
 import "./About.css";
 
 function About() {
@@ -20,7 +20,12 @@ function About() {
         </div>
         <div className="nossoTime">
           <div className="timeContainer">
-            <Slider />
+            <Slide />
+          </div>
+        </div>
+        <div className="aboutBox">
+          <div className="aboutText">
+            <p>Conheça nosso time!</p>
           </div>
         </div>
       </section>
