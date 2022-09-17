@@ -6,42 +6,38 @@ function Cards() {
     {
       id: 1,
       title: "DIREITO EMPRESARIAL, ECONÔMICO E SUCESSÃO EMPRESARIAL",
-      testimonial: "Advogado - OAB/PS 19.590",
+      testimonial:
+        "A sucessão empresarial é um procedimento de passagem de poder e capital de uma empresa para outra empresa que, continuará executando as atividades da empresa anterior mesmo que com outra razão social.",
     },
     {
       id: 2,
       title: "DIREITO IMOBILIÁRIO",
-      testimonial: "Advogado - OAB/PS 19.470",
+      testimonial:
+        "O direito imobiliário é um ramo do direito privado que lida, como o nome já aponta, que estuda e lida com as relações jurídicas e de direito que envolvam a posse, compra, venda, doação, sucessão, troca e propriedade de bens imóveis, inclusive a incorporação imobiliária.",
     },
     {
       id: 3,
       title: "DIREITO CIVIL",
-      testimonial: "Advogado - OAB/PS 19.000",
+      testimonial:
+        "O Direito Civil, dentro do ordenamento jurídico brasileiro, é o ramo do direito que lida com as relações jurídicas, como os direitos e as obrigações, de pessoas físicas e jurídicas dentro da esfera civil.",
     },
     {
       id: 4,
       title: "DIREITO TRIBUTÁRIO",
-      testimonial: "Direito Tributário é a área do direito responsável por determinar e fiscalizar a arrecadação de tributos, como taxas e impostos. Também chamado de Direito Fiscal, o segmento tem, como principal papel, o combate de possíveis abusos por parte do Fisco e o controle de pagamento dos contribuintes.",
+      testimonial:
+        "Direito Tributário é a área do direito responsável por determinar e fiscalizar a arrecadação de tributos, como taxas e impostos. Também chamado de Direito Fiscal, o segmento tem, como principal papel, o combate de possíveis abusos por parte do Fisco e o controle de pagamento dos contribuintes.",
     },
     {
       id: 5,
       title: "DIREITO TRABALHISTA E PREVIDENCIÁRIO",
-      testimonial: "Advogado - OAB/PS 19.590",
+      testimonial:
+        "Ramo do direito privado que é responsável por regular a relação jurídica entre trabalhadores e empregadores, baseado nos princípios e leis trabalhistas. O direito do trabalho é um dos ramos do direito privado mais importantes para a sociedade.",
     },
     {
       id: 6,
       title: "DIREITO DE FAMÍLIAS E SUCESSÕES",
-      testimonial: "Advogado - OAB/PS 19.470",
-    },
-    {
-      id: 7,
-      title: "DIREITO BANCÁRIO E FINANCEIRO",
-      testimonial: "Advogado - OAB/PS 19.000",
-    },
-    {
-      id: 8,
-      title: "DIREITO DO CONSUMIDOR",
-      testimonial: "Advogado - OAB/PS 25.190",
+      testimonial:
+        "As varas da Família e Sucessões são responsáveis por processar e julgar litígios relacionados a temas como inventários, testamentos, separação judicial, divórcio, anulação de casamento, investigação de paternidade, ação de alimentos, entre outros.",
     },
   ];
 
@@ -52,8 +48,8 @@ function Cards() {
           <div className="allCards">
             {card.map((info) => (
               <div className="card">
-                <div>{info.title}</div>
-                {info.testimonial}
+                <div className="direito">{info.title}</div>
+                <div className="direitoText">{info.testimonial}</div>
               </div>
             ))}
           </div>

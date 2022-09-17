@@ -18,8 +18,8 @@ function Navbar() {
             div
             className="titles"
           >
-            <div className="navbarText" onClick={closeMobileMenu}>
-              LOGO
+            <div className="navbarPic" onClick={closeMobileMenu}>
+              <img src="./img/logo.jpg" alt="logo"></img>
             </div>
           </Link>
           <div className="menuIcon" onClick={handleClick}>

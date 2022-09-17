@@ -16,7 +16,7 @@
 }
 
 .aboutContent{
-    margin-top: 15em;
+    margin-top: 8em;
     grid-column: 1/7 ;
 }
 
@@ -42,8 +42,8 @@
 }
 
 .aboutText{
-    padding-top: 4em;
-    margin-left: 20em;
+    padding-top: 3em;
+    margin-left: 18em;
     font-size: 1em;
 }
 

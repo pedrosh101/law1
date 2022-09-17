@@ -25,7 +25,7 @@ function About() {
         </div>
         <div className="aboutBox">
           <div className="aboutText">
-            <p>Conheça nosso time!</p>
+            <p>Ao contratar a Template Advogados, nosso cliente recebe mais do que uma representação profissional. Desde 2013, nosso Escritório de advocacia oferece expertise em diversas áreas jurídicas, com atuação em Guaratinguetá e Região. Esperamos seu contato para entender melhor as suas necessidades.</p>
           </div>
         </div>
       </section>

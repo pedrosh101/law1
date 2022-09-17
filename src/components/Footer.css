@@ -3,11 +3,10 @@
 }
 
 .footer-info{
-    padding: 4.5em 9em;
+    padding: 2em 3em;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color: var(--clr2);
-    gap: 2.2em;
 }
 
 .footer-container h1{
@@ -19,19 +18,20 @@
     letter-spacing: 1px;
 }
 
-.prof{
-    display: flex;
-    flex-direction: column;
-    gap: 2.2em;
-}
 
 .footer-subscription > *{
-    margin: 10px;
+    margin: 6px;
 }
 
 .footer-heading {
     text-align: left;
     font-size: 2.1em;
+}
+
+.footer-container img{
+    width: 15em;
+    margin-right: 65px;
+    margin-top: 40px;
 }
 
 
@@ -45,7 +45,7 @@
 }
 
 .endereco > *{
-    margin: 10px;
+    margin: 6px;
 }
 
 .last-line{
@@ -53,14 +53,12 @@
     justify-content: space-between;
     padding: .3em 5em;
     color:rgb(211, 189, 218);
-    font-size: .6em;
+    font-size: .5em;
     letter-spacing: 1px;
     font-family: FUT;
 }
 
-a{
-    color:rgb(211, 189, 218);
-}
+
 
 /* Social Icons */
 .social-icon-link {
@@ -69,7 +67,7 @@ a{
 }
 
 .social-icons{
-    margin-top: 3em;
+    margin-top: 2em;
 
 }
 

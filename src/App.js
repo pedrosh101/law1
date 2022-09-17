@@ -5,6 +5,7 @@ import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
+import Map from "./components/Map";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <HeroSection />
         <About />
         <Cards />
+        <Map />
         <Footer />
       </Router>
     </>

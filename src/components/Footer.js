@@ -11,25 +11,12 @@ function Footer() {
               <h1 className="footer-heading">Alexandre Gabriel</h1>
               <p className="footer-text">Terapeuta - CRT: 43.332</p>
               <p className="footer-tel">
-                <i className="fab fa-whatsapp" /> (12) 99797-9084 -{" "}
-                <i className="fa fa-phone" /> (12) 3125-4889
-              </p>
-            </div>
-            <div className="footer-subscription">
-              <h1 className="footer-heading">Heloisa Laia</h1>
-              <p className="footer-text">Massoterapeuta - Depiladora</p>
-              <p className="footer-tel">
-                <i className="fab fa-whatsapp" /> (12) 99715-8384 -{" "}
-                <i className="fa fa-phone" /> (12) 3125-4889
-              </p>
-            </div>
-            <div className="footer-subscription">
-              <h1 className="footer-heading">Profissional 3</h1>
-              <p className="footer-text">Terapeuta - CRT: 43.332</p>
-              <p className="footer-tel">
                 <i className="fab fa-whatsapp" /> (12) 99797-9084
               </p>
             </div>
+          </div>
+          <div>
+            <img src="./img/logo2.jpg" alt="logoend"></img>
           </div>
           <div className="endereco">
             <h1 className="endereco-heading">Endereço</h1>
