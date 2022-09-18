@@ -4,21 +4,13 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <>
-      <section className="footer-container">
-        <div className="footer-info">
-          <div className="prof">
-            <div className="footer-subscription">
-              <h1 className="footer-heading">Alexandre Gabriel</h1>
-              <p className="footer-text">Terapeuta - CRT: 43.332</p>
-              <p className="footer-tel">
-                <i className="fab fa-whatsapp" /> (12) 99797-9084
-              </p>
-            </div>
-          </div>
-          <div>
+      <section className="footerContainer">
+        <div className="footerInfo">
+
+          <div className="imgSec">
             <img src="./img/logo2.jpg" alt="logoend"></img>
           </div>
-          <div className="endereco">
+          <div className="enderecoSec">
             <h1 className="endereco-heading">Endereço</h1>
             <p>Rua Durval Rocha, 192</p>
             <p>Vila Paraíba - Guaratinguetá-SP</p>

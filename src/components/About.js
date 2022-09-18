@@ -1,5 +1,6 @@
 import React from "react";
 import Slide from "./Slide";
+import Cards from "./Cards";
 import "./About.css";
 
 function About() {
@@ -18,15 +19,27 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="nossoTime">
+
+        <div className="timeContent">
           <div className="timeContainer">
             <Slide />
           </div>
-        </div>
-        <div className="aboutBox">
-          <div className="aboutText">
-            <p>Ao contratar a Template Advogados, nosso cliente recebe mais do que uma representação profissional. Desde 2013, nosso Escritório de advocacia oferece expertise em diversas áreas jurídicas, com atuação em Guaratinguetá e Região. Esperamos seu contato para entender melhor as suas necessidades.</p>
+          <div className="boxContainer">
+            <div className="aboutText">
+              <p>
+                Ao contratar a Template Advogados, nosso cliente recebe mais do
+                que uma representação profissional. Desde 2013, nosso Escritório
+                de advocacia oferece expertise em diversas áreas jurídicas, com
+                atuação em Guaratinguetá e Região. Esperamos seu contato para
+                entender melhor as suas necessidades.
+              </p>
+            </div>
           </div>
+        </div>
+
+        <div className="cardsContent">
+          <h1>Áreas De Atuação</h1>
+          <Cards />
         </div>
       </section>
     </>

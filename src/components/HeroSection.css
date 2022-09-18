@@ -23,8 +23,10 @@
     justify-content: center;
 }
 
+
+
 .imgRight{
-    height: 140%;
+    height: 130%;
     width: 80%;
     object-fit:cover;
     z-index: 500;

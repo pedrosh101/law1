@@ -12,25 +12,25 @@ SwiperCore.use([Pagination, A11y, Autoplay]);
 const data = [
   {
     id: 1,
-    username: "Dr. Fandango",
+    username: "Dr. Nome 1",
     testimonial: "Advogado - OAB/PS 19.590",
     img: "../img/adv1.jpg",
   },
   {
     id: 2,
-    username: "Dr. Tom",
+    username: "Dra. Nome 2",
     testimonial: "Advogado - OAB/PS 19.470",
     img: "../img/adv2.jpg",
   },
   {
     id: 3,
-    username: "Dra. Lili",
+    username: "Dr. Nome 3",
     testimonial: "Advogado - OAB/PS 19.000",
     img: "../img/adv3.jpg",
   },
   {
     id: 4,
-    username: "Dr. Hulk",
+    username: "Dr. Nome 4",
     testimonial: "Advogado - OAB/PS 25.190",
     img: "../img/adv4.jpg",
   },
